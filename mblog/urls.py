@@ -21,4 +21,5 @@ urlpatterns = [
     url(r'^$', homepage),
     url(r'^post/(\w+)$',showpost),
     url(r'^admin/', admin.site.urls),
+    url(r'',homepage)
 ]
